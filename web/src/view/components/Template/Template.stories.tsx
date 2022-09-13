@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Template, { TemplateProps } from './index'
 
 export default {
-    title: 'Template title',
+    title: 'Application/Components/Template',
     component: Template
 } as ComponentMeta<typeof Template>;
 
@@ -14,7 +14,8 @@ Basic.args = {
     title: 'My title'
 }
 
-export const Second = StroyTemplate.bind({});
-Second.args = {
-    title: 'Second title'
+export const BlackBackground = StroyTemplate.bind({});
+BlackBackground.args = {
+    ...Basic.args,
+    className: 'bg-black'
 }
