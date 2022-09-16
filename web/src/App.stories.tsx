@@ -3,7 +3,7 @@ import { ComponentStory } from '@storybook/react';
 import App from './App';
 
 export default {
-    title: 'Application/Layout/App',
+    title: 'Application/App',
     component: App,
     controls: {
         hideNoControlsWarning: true
